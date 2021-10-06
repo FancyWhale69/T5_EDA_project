@@ -5,7 +5,9 @@ Hazim Bukhari
 The aim of the project is to predict which stations are most likely to be crowded in Riyadh to foucs on them in future plans. The data is extracted from the [MTA](http://web.mta.info/developers/turnstile.html) from Jan 2020 until Dec 2020. Crowded stations will be identified in the MTA dataset then extracting thier land use, and finally mapped to Riyadh's metro stations. Results will be shared via Power point slides and Blog post (in progress).
 
 ## Design
-This project originates from the [DrivenData competition](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) "Pump it Up: Data Mining the Water Table". The data is provided by [Taarifa](http://taarifa.org/) and the Tanzanian Ministry of Water, and presents a three-class operational status of **functional**, **functional needs repair**, and **non-functional** for waterpoints across the country. Classifying statuses accurately via machine learning models would enable the Tanzanian Ministry of Water to take action to improve operations and maintenance planning of these units, allocate resources more quickly to needed areas, and ensure potable water is accessible to as many people as possible.
+The Riyadh metro organization is the governing body for the metro project in Riyadh, with such a new project some adjustment, but wouldn’t it be nice to have a map that displays the prediction for high traffic stations in advance to prepare in advance and avoid complications down the road?
+By using data from the MTA which is the governing body for the subway system in NY, high traffic stations in NY could identified then extracting features of their locations (e.g.: near working area, school zone, housing area, tourist attraction, etc.…).
+
 
 ## Data
 The dataset contains ~10M rows with 12 columns, the most important features are:  
